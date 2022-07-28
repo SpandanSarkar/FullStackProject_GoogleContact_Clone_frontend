@@ -1,0 +1,37 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+#accountIcon{
+    transform: scale(1.8);
+    color:royalblue;
+}
+
+#contacts{
+    padding-left: 1.25rem;
+    color: dimgrey;
+}
+
+#apps{
+    margin-left: 2.5rem;
+}
+
+.example-full-width{
+    margin-left: 5rem;
+    width: 35rem;
+    color: lightgrey;
+}
+
+#search{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    transform: scale(1.2);
+    color:dimgray;
+}
+
+table {
+    width: 95%;
+    align-items: stretch;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
