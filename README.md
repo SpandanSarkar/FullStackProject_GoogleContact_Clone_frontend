@@ -30,5 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm i -s @angular/flex-layout @angular/cdk
 
 ## References 
-https://github.com/angular/flex-layout
+https://github.com/angular/flex-layout and
 https://www.youtube.com/watch?v=f3shwARuhEM
