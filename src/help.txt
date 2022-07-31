@@ -3,18 +3,17 @@
     <mat-card fxFlex = "28">
         <mat-toolbar>Login into your account</mat-toolbar>
 
-        <!-- [id]="formId" -->
         <form
-        
-         [formGroup]="form"
-          (ngSubmit)="login2()"
+        #loginForm="ngForm" (ngSubmit)="login(loginForm.value)"
         fxLayoutAlign = "stretch" fxLayout = "column" class="login-form">
             <mat-form-field >
-              <input formControlName="username"  matInput placeholder="Username">
+              <!-- <mat-label>Favorite food</mat-label> -->
+              <input ngModel matInput placeholder="Username">
             </mat-form-field>
 
             <mat-form-field >
-                <input formControlName="password" matInput type="password" placeholder="Password">
+                <!-- <madt-label>Favorite food</mat-label> -->
+                <input ngModel matInput type="password" placeholder="Password">
             </mat-form-field> 
             
             <button class="login-btn" mat-raised-button type="submit">Login</button>
